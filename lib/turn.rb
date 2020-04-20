@@ -43,4 +43,5 @@ def turn(board)
   while valid_move?(board, index) == true
     move(board, input_to_index,char = "X")
     return display_board(board)
+  end
 end
