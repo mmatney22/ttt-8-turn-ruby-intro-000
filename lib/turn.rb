@@ -40,5 +40,6 @@ def turn(board)
       return turn(board)
    else
     return move(board, input_to_index,char = "X")
+    return board
   end
 end
