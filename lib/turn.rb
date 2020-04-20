@@ -40,4 +40,7 @@ def turn(board)
       return turn(board)
 #    return move(board, input_to_index,char = "X")
   end
+  while valid_move?(board, index) == true
+    move(board, input_to_index,char = "X")
+    return display_board(board)
 end
