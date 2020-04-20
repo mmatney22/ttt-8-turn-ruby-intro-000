@@ -33,11 +33,11 @@ def valid_move?(board, index)
 end
 #--------------------------
 def turn(board, index)
+  return "Please enter 1-9:"
   input_to_index(index)
 #  until valid_move?(board, index) == true
 #      return turn(board, index)
 #   else
 #    return move(board, input_to_index,char = "X")
 #  end
-  return "Please enter 1-9:"
 end
